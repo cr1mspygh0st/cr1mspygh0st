@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050607"/>
+      <stop offset=".55" stop-color="#101216"/>
+      <stop offset="1" stop-color="#050607"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#f4f6fa" stop-opacity=".22"/>
+      <stop offset=".45" stop-color="#c8ced8" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#f3f5f8" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="15"/></filter>
+  </defs>
+  <rect width="1200" height="330" fill="url(#bg)"/>
+  <ellipse cx="850" cy="110" rx="330" ry="220" fill="url(#glow)"/>
+  <ellipse cx="850" cy="110" rx="230" ry="160" fill="none" stroke="#dfe4ec" stroke-opacity=".12"/>
+  <ellipse cx="850" cy="110" rx="280" ry="195" fill="none" stroke="#dfe4ec" stroke-opacity=".08"/>
+  <path d="M0 265 L1200 265" stroke="#fff" stroke-opacity=".12"/>
+  <path d="M0 267 L1200 267" stroke="url(#line)" stroke-width="1.5"/>
+  <path d="M0 0 L420 0 L250 330 L0 330Z" fill="#fff" opacity=".018"/>
+  <path d="M1200 0 L1030 0 L1170 330 L1200 330Z" fill="#fff" opacity=".025"/>
+  <g stroke="#dce1e9" stroke-opacity=".24" fill="none">
+    <path d="M55 55h90M55 55v55M1145 55h-90M1145 55v55"/>
+    <path d="M55 275h90M55 275v-55M1145 275h-90M1145 275v-55"/>
+    <path d="M730 42h320M760 48h260" stroke-opacity=".1"/>
+    <path d="M760 282h290M800 288h250" stroke-opacity=".1"/>
+  </g>
+  <g fill="#f5f7fa">
+    <circle cx="150" cy="55" r="2.2"/><circle cx="1050" cy="275" r="2.2"/>
+    <circle cx="1045" cy="55" r="1.5" opacity=".6"/><circle cx="155" cy="275" r="1.5" opacity=".6"/>
+  </g>
+  <text x="92" y="145" fill="#f5f6f8" font-family="Inter, Arial, sans-serif" font-size="17" letter-spacing="7" opacity=".72">GITHUB / PROFILE</text>
+  <text x="88" y="210" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="650" letter-spacing="-2">cr1mspygh0st</text>
+  <rect x="92" y="235" width="92" height="2" fill="#f4f6f8"/>
+  <text x="200" y="242" fill="#c4cad3" font-family="Inter, Arial, sans-serif" font-size="13" letter-spacing="3">CODE  ·  CREATE  ·  REPEAT</text>
+  <g transform="translate(870 165)" fill="none" stroke="#f0f3f7" stroke-opacity=".58">
+    <circle r="67" stroke-width="1"/>
+    <circle r="52" stroke-width=".7" stroke-dasharray="2 8"/>
+    <path d="M-90 0H90M0-90V90" stroke-opacity=".18"/>
+    <path d="M-40 -25L0 -48L40 -25L40 25L0 48L-40 25Z" stroke-width="1.2"/>
+    <path d="M-40 -25L0 0L40 -25M0 0V48" stroke-width="1"/>
+  </g>
+  <rect x="0" y="0" width="1200" height="330" fill="none" stroke="#fff" stroke-opacity=".12"/>
+</svg>
