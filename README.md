@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="cr1mspygh0st — monochrome profile header" />
+<img src="assets/header.svg" width="100%" alt="cr1m spy gh0st — monochrome profile header" />
 
 <br/>
 
